@@ -38,7 +38,7 @@ public class BishopBlackTest {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
         bishopBlack.way(Cell.G6);
                 });
-        assertThat(exception.getMessage()).isEqualTo(String.format
-                ("Could not move by diagonal from %s to %s", Cell.C1, Cell.G6));
+        assertThat(exception.getMessage()).isEqualTo(String.format(
+                "Could not move by diagonal from %s to %s", Cell.C1, Cell.G6));
     }
 }
